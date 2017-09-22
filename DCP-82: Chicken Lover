@@ -1,0 +1,25 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main(){
+	
+	  int n,a;
+	  
+	  cin>>n;
+	  while(n--){
+	  	cin>>a;
+	  	
+	  	  if(a>=120){
+	  	  	cout<<"Good Boy Sifat"<<endl;
+	  	  	}
+	  	  	else{
+	  	  		cout<<"Naughty Boy Sifat"<<endl;
+	  	  		}
+	  	
+	  	}
+	
+	
+	
+	return 0;
+	}
