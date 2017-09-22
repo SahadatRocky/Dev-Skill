@@ -1,0 +1,21 @@
+#include<bits/stdc++.h>
+
+using namespace std;
+
+int main(){
+	
+    int n,b;
+    cin>>n;
+    string a;
+  
+     for( int i=1; i<=n;i++){
+         cin>>a;
+         b=a.length();
+      
+         cout<<b<<endl;        	 
+    }
+  
+	  
+  	return 0;
+
+}
