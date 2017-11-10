@@ -1,0 +1,29 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main() {
+
+   int T;
+   cin>>T;
+   string s;
+   int i=1,c=0;
+   while(i<=T){
+     cin>>s;
+
+    sort(s.begin(),s.end());
+    map<char , int> mp;
+    map<char , int>:: iterator it;
+
+      for(int i=0; i<s.size(); i++){
+
+      	  mp[s[i]]++;
+      	  }
+      	 cout<<"Case "<<i<<":"<<endl;
+     for (it=mp.begin(); it!=mp.end(); ++it){
+      	cout<< it->first <<" "<< it->second <<endl;
+      	}
+   	i++;
+   	}
+
+return 0;
+}
