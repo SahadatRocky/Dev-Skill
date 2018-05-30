@@ -1,0 +1,39 @@
+#include<bits/stdc++.h>
+using namespace std;
+typedef long long int lli;
+typedef unsigned long long ull;
+
+int main(){
+	   
+	   int n,a1,a2,b1,b2,a3,a4,b3,b4,ban1,pak1,ban2,pak2;
+	   cin>>n;
+	   cin.ignore();
+	  // vector<string>v;
+	   for(int i=0;i<n;i++){
+	   	
+	   	cin>>a1>>a2>>b1>>b2;
+	   	cin>>a3>>a4>>b3>>b4;
+	   	
+	   	ban1=a1+a2;
+	   	ban2=a3+a4;
+	   	
+	   	pak1=b1+b2;
+	   	pak2=b3+b4;
+	   	
+	   	
+	   	
+	   	if(ban1>pak1 && ban2>pak2){
+	   		
+	   		cout<<"Banglawash"<<endl;
+	   		}
+	   		else{
+	   			cout<<"Miss"<<endl;
+	   			}
+	   	
+}
+	
+	
+	
+	
+  return 0;
+}
